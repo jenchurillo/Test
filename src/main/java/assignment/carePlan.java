@@ -131,6 +131,7 @@ public class carePlan extends HttpServlet {
                 request.getRequestDispatcher("/food.jsp").forward(request,response);
                 request.getRequestDispatcher("/wrist.jsp").forward(request,response);
                 request.getRequestDispatcher("/progress.jsp").forward(request,response);
+
         }
         else {
             request.setAttribute("errorMessage","Invalid username or password. Please try again.");

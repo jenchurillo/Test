@@ -23,16 +23,40 @@
         h2{text-align: center;
             font-size: 20px
         }
+        h3{font-size: 10px;
+            text-align: center;
+        }
         h4{
             padding-top: 5px;
             padding-bottom: 10px;
             margin-left: 10px;
+        }
+        button{
+
+        }
+        .logout {background-color: lightskyblue;
+            width:5%;
+            height:5%;
+            font-size: 10px;
+            position:absolute;
+            top: 5px;
+            right:5px;}
+        .back{
+            background-color: lightskyblue;
+            width:5%;
+            height:5%;
+            font-size: 10px;
+            position:absolute;
+            top: 5px;
+            left:5px;
         }
 
     </style>
     <title>Straight Leg Raise</title>
 </head>
 <body>
+<button type="button" class="button logout" onclick="location.href='/ihiFhirAssignment_war_exploded/logout'">Logout</button>
+<button type="button" class="button back" onclick="location.href='/ihiFhirAssignment_war_exploded/knee'">back</button>
 <h1>Straight Leg Raise</h1>
 <h2>Following is a video demonstrating how to perform a Straight Leg Raise</h2>
 <iframe height="350" width="600"
@@ -45,7 +69,8 @@
 <p>3. Pause, lower both legs slowly and then return to the starting position.</p>
 <p>4. Repeat 20 times</p>
 
-<h4><button type="button" onclick="location.href='/ihiFhirAssignment_war_exploded/knee'">Back</button></h4>
+<h3>Video Source: Michigan Medicine. (2016, October 6). Straight Leg Raises [Video]. YouTube. https://www.youtube.com/embed/drEiYK2li9Q</h3>
+<h3>Data Source: Straight Leg Raise | Illustrated Exercise Guide. (2017, July 4). SPOTEBI. https://www.spotebi.com/exercise-guide/straight-leg-raise/</h3>
 
 </body>
 </html>

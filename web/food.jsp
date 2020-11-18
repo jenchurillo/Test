@@ -35,12 +35,36 @@
             padding-bottom: 10px;
             margin-left: 10px;
         }
+        button{
+
+        }
+        .logout {background-color: lightskyblue;
+            width:5%;
+            height:5%;
+            font-size: 10px;
+            position:absolute;
+            top: 5px;
+            right:5px;}
+        .back{
+            background-color: lightskyblue;
+            width:5%;
+            height:5%;
+            font-size: 10px;
+            position:absolute;
+            top: 5px;
+            left:5px;
+        }
+        h5{font-size: 10px;
+            text-align: center;
+        }
 
 
     </style>
     <title>Food Recommendations</title>
 </head>
 <body>
+<button type="button" class="button logout" onclick="location.href='/ihiFhirAssignment_war_exploded/logout'">Logout</button>
+<button type="button" class="button back" onclick="location.href='/ihiFhirAssignment_war_exploded/rheumatoid'">back</button>
 
 <div>
 
@@ -66,8 +90,7 @@
 
 </div>
 
-<h3>Data Source: Arthritis Foundation. (n.d.). Foods That Can Help RA Symptoms | Arthritis Foundation. Foods That Can Help RA Symptoms. Retrieved November 11, 2020, from https://www.arthritis.org/health-wellness/treatment/treatment-plan/tracking-your-health/foods-that-can-help-ra-symptoms</h3>
-<h4><button type="button" onclick="location.href='/ihiFhirAssignment_war_exploded/rheumatoid'">Back</button></h4>
+<h5>Data Source: Arthritis Foundation. (n.d.). Foods That Can Help RA Symptoms | Arthritis Foundation. Foods That Can Help RA Symptoms. Retrieved November 11, 2020, from https://www.arthritis.org/health-wellness/treatment/treatment-plan/tracking-your-health/foods-that-can-help-ra-symptoms</h5>
 
 </body>
 </html>

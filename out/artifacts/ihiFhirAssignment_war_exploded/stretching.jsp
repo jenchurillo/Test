@@ -19,10 +19,8 @@
             margin-left: 350px;
             margin-right: 350px;
         }
-        h3{
-            padding-top: 100px;
-            font-size: 10px;
-            margin-left: 100px;
+        h3{font-size: 10px;
+            text-align: center;
         }
         h4{
             padding-top: 5px;
@@ -33,12 +31,33 @@
             display: block;
             margin: 0 auto;
         }
+        button{
+
+        }
+        .logout {background-color: lightskyblue;
+            width:5%;
+            height:5%;
+            font-size: 10px;
+            position:absolute;
+            top: 5px;
+            right:5px;}
+        .back{
+            background-color: lightskyblue;
+            width:5%;
+            height:5%;
+            font-size: 10px;
+            position:absolute;
+            top: 5px;
+            left:5px;
+        }
 
 
     </style>
     <title>Stretching</title>
 </head>
 <body>
+<button type="button" class="button logout" onclick="location.href='/ihiFhirAssignment_war_exploded/logout'">Logout</button>
+<button type="button" class="button back" onclick="location.href='/ihiFhirAssignment_war_exploded/rheumatoid'">back</button>
 <h1>Stretching</h1>
 <p>Stretching can help improve flexibility, reduce stiffness, and increase range of motion.</p>
 <p>Stretches often involve slowly and gently moving the joints of the knees, hands, and elbows.</p>
@@ -53,8 +72,8 @@
 
 </iframe>
 
+<h3>Video Source: BJC Health. (2019, October 21). Morning exercises tips for Rheumatoid Arthritis! [Video]. YouTube. https://www.youtube.com/watch?v=1VGLio2R6Og&t=13s</h3>
 <h3>Data Source: Arthritis Foundation. (n.d.-a). Best Exercises for Rheumatoid Arthritis | Arthritis Foundation. Retrieved November 11, 2020, from https://www.arthritis.org/health-wellness/healthy-living/physical-activity/other-activities/best-exercises-for-rheumatoid-arthritis</h3>
-<h4><button type="button" onclick="location.href='/ihiFhirAssignment_war_exploded/rheumatoid'">Back</button></h4>
 
 
 </body>

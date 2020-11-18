@@ -419,7 +419,7 @@ public class checkLogin {
             }
         }
 
-        System.out.println("w = " + w);
+        //System.out.println("w = " + w);
 
         //if username was found, set correct username, password, and patientId
         if(w != -1){

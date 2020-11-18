@@ -14,6 +14,8 @@
         h2{text-align: center;
             text-decoration: underline;
         }
+        h5{font-size: 10px;
+        }
         p{
             font-size: 15px;
         }
@@ -29,7 +31,7 @@
             text-align:center;
 
         }
-        button[type=button] {
+        button{
             width: 25%;
             background-color: lightskyblue;
             color: white;
@@ -40,12 +42,24 @@
             border-radius: 4px;
             cursor: pointer;
         }
+        .logout {background-color: lightskyblue;
+            width:5%;
+            height:5%;
+            font-size: 10px;
+            position:absolute;
+            top: 5px;
+            right:5px;}
+
 
     </style>
     <title>Patient Detailed Care Plan</title>
 
 </head>
 <body>
+<h3>
+    <button type="button" class="button logout" onclick="location.href='/ihiFhirAssignment_war_exploded/logout'">Logout</button>
+
+</h3>
 <h1>Patient Detailed Care Plan</h1>
 
 <div>
@@ -69,6 +83,10 @@
     <p><button type="button" onclick="location.href='/ihiFhirAssignment_war_exploded/oneLegBalance'">One Leg Balance</button></p>
 
 </div>
+<div>
+    <h5>Data Source:Kambach, B. (2015, August 10). When and Why to Apply Cold to an Arthritic Joint. Arthritis-Health. https://www.arthritis-health.com/treatment/alternative-treatments/when-and-why-apply-cold-arthritic-joint</h5>
+</div>
+
 
 
 

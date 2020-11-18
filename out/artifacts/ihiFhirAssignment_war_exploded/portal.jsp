@@ -16,6 +16,7 @@
             font-size: 25px;
             text-decoration: underline;
         }
+
         p{
             font-size: 15px;
 
@@ -29,7 +30,7 @@
             background-color: darkgrey;
             text-align: center;
         }
-        button[type=button] {
+        button{
             width: 25%;
             background-color: lightskyblue;
             color: white;
@@ -40,10 +41,33 @@
             cursor: pointer;
             font-size: 15px;
         }
+        .logout {background-color: lightskyblue;
+            width:5%;
+            height:5%;
+            font-size: 10px;
+            position:absolute;
+            top: 5px;
+            right:5px;}
+        .back{
+            background-color: lightskyblue;
+            width:5%;
+            height:5%;
+            font-size: 10px;
+            position:absolute;
+            top: 5px;
+            left:5px;
+        }
+
+
     </style>
     <title>Portal</title>
 </head>
 <body>
+<h3>
+    <button type="button" class="button logout" onclick="location.href='/ihiFhirAssignment_war_exploded/logout'">Logout</button>
+
+
+</h3>
     <h1>Welcome to your Portal ${patientName}!<h1>
         <div>
             <h2>Patient Information</h2>

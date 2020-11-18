@@ -29,7 +29,7 @@
             text-align:center;
 
         }
-        button[type=button] {
+        button {
             width: 25%;
             background-color: lightskyblue;
             color: white;
@@ -40,12 +40,21 @@
             border-radius: 4px;
             cursor: pointer;
         }
+        .logout {background-color: lightskyblue;
+            width:5%;
+            height:5%;
+            font-size: 10px;
+            position:absolute;
+            top: 5px;
+            right:5px;}
+
 
 
     </style>
     <title>Patient Detailed Care Plan</title>
 </head>
 <body>
+<button type="button" class="button logout" onclick="location.href='/ihiFhirAssignment_war_exploded/logout'">Logout</button>
 <h1>Patient Detailed Care Plan</h1>
 <div>
 

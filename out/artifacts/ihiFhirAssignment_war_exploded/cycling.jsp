@@ -19,10 +19,8 @@
             margin-left: 350px;
             margin-right: 350px;
         }
-        h3{
-            padding-top: 75px;
-            font-size: 10px;
-            margin-left: 100px;
+        h3{font-size: 10px;
+            text-align: center;
         }
         h4{
             padding-top: 5px;
@@ -36,19 +34,40 @@
             padding-top: 75px;
 
         }
+        button{
+
+        }
+        .logout {background-color: lightskyblue;
+            width:5%;
+            height:5%;
+            font-size: 10px;
+            position:absolute;
+            top: 5px;
+            right:5px;}
+        .back{
+            background-color: lightskyblue;
+            width:5%;
+            height:5%;
+            font-size: 10px;
+            position:absolute;
+            top: 5px;
+            left:5px;
+        }
 
     </style>
     <title>Cycling</title>
 </head>
 <body>
+<button type="button" class="button logout" onclick="location.href='/ihiFhirAssignment_war_exploded/logout'">Logout</button>
+<button type="button" class="button back" onclick="location.href='/ihiFhirAssignment_war_exploded/rheumatoid'">back</button>
 <h1>Cycling</h1>
 <p>Cycling is a low impact activity that increases cardiovascular fitness.</p>
 <p>Cycling can also reduce stiffness, increase range of motion and leg strength, and build endurance.</p>
 
 <img loading="lazy" class="aligncenter wp-image-319994" src="https://creakyjoints.org/wp-content/uploads/0619_Cycling-and-Arthritis-1-300x200.jpg" alt="Cycling and Arthritis" width="600" height="333">
 
+<h3>Image Source:Cycling and Arthritis. (n.d.). [Illustration]. Creakyjoints. https://creakyjoints.org/wp-content/uploads/0619_Cycling-and-Arthritis-1-300x200.jpg</h3>
 <h3>Data Source: Arthritis Foundation. (n.d.-a). Best Exercises for Rheumatoid Arthritis | Arthritis Foundation. Retrieved November 11, 2020, from https://www.arthritis.org/health-wellness/healthy-living/physical-activity/other-activities/best-exercises-for-rheumatoid-arthritis</h3>
-<h4><button type="button" onclick="location.href='/ihiFhirAssignment_war_exploded/rheumatoid'">Back</button></h4>
 
 </body>
 </html>

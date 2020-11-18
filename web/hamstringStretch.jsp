@@ -14,6 +14,9 @@
         h2{text-align: center;
             font-size: 20px
         }
+        h3{font-size: 10px;
+            text-align: center;
+        }
         p{
             font-size: 15px;
             margin-left: 350px;
@@ -28,11 +31,32 @@
             padding-bottom: 10px;
             margin-left: 10px;
         }
+        button{
+
+        }
+        .logout {background-color: lightskyblue;
+            width:5%;
+            height:5%;
+            font-size: 10px;
+            position:absolute;
+            top: 5px;
+            right:5px;}
+        .back{
+            background-color: lightskyblue;
+            width:5%;
+            height:5%;
+            font-size: 10px;
+            position:absolute;
+            top: 5px;
+            left:5px;
+        }
 
     </style>
     <title>Hamstring Stretch Instructions</title>
 </head>
 <body>
+<button type="button" class="button logout" onclick="location.href='/ihiFhirAssignment_war_exploded/logout'">Logout</button>
+<button type="button" class="button back" onclick="location.href='/ihiFhirAssignment_war_exploded/knee'">back</button>
 <h1>Hamstring Stretch</h1>
 <h2>Following is a video demonstrating how to perform a hamstring stretch</h2>
 <iframe height="350" width="600"
@@ -45,7 +69,7 @@
 <p>3. Feel the stretch in the back of your thigh.</p>
 <p>4. Hold for 30 to 60 seconds. Repeat 2 times.</p>
 
-<h4><button type="button" onclick="location.href='/ihiFhirAssignment_war_exploded/knee'">Back</button></h4>
-
+<h3>Video Source: AskDoctorJo. (2016, September 1). Hamstring Stretch in Long Sitting - Ask Doctor Jo [Video]. YouTube. https://www.youtube.com/watch?v=wr_8aak4Wbc</h3>
+<h3>Data Source: Fairview. (2020). Seated Hamstring Stretch. Fairview.Org. https://www.fairview.org/patient-education/89925</h3>
 </body>
 </html>
