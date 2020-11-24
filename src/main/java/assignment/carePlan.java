@@ -63,7 +63,8 @@ public class carePlan extends HttpServlet {
                 String phone = project3.getPatientPhone(userObject.getPatientId(request.getParameter("username"), request.getParameter("password")));
                 String condition = project3.getCondition(userObject.getPatientId(request.getParameter("username"), request.getParameter("password")));
                 String conditionId = project3.getConditionId(userObject.getPatientId(request.getParameter("username"), request.getParameter("password")));
-                String carePlan = project3.getCarePlan(userObject.getPatientId(request.getParameter("username"), request.getParameter("password")),conditionId).replace(" ","\n");
+                String carePlan = project3.getCarePlan(userObject.getPatientId(request.getParameter("username"), request.getParameter("password")),conditionId);
+                String newCarePlan[] = carePlan.split("-",-1);
                 String urlString = "";
                 String progressIdentifier = request.getParameter("password");
 
@@ -105,7 +106,7 @@ public class carePlan extends HttpServlet {
                 request.getSession().setAttribute("patientAddress", address);
                 request.getSession().setAttribute("patientPhone", phone);
                 request.getSession().setAttribute("patientCondition", condition);
-                request.getSession().setAttribute("patientCarePlan", carePlan);
+                request.getSession().setAttribute("patientCarePlan", newCarePlan);
                 request.getSession().setAttribute("conditionId", conditionId);
                 request.getSession().setAttribute("urlString", urlString);
                 request.getSession().setAttribute("progressIdentifier", progressIdentifier);

@@ -30,10 +30,8 @@
             padding-top: 10px;
             text-decoration: underline;
         }
-        h3{
-            padding-top: 150px;
-            font-size: 10px;
-            margin-left: 200px;
+        h3{font-size: 10px;
+            text-align: center;
         }
         div{
             padding-top: 25px;
@@ -74,7 +72,7 @@
 <p>6. Repeat steps 1 through 5, but this time extend your affected arm in front of you with your palm facing up. Then bend back your wrist, pointing your hand toward the floor.</p>
 
 <img data-hw-height="196" data-hw-width="300" src="https://content.ca.healthwise.net/resources/12.4/en-ca/media/medical/hw/h9991665_001_pi.jpg" data-resource-path="media/medical/hw/h9991665_001_pi.jpg">
-<h3>Image and data pulled from: Healthwise Staff. (2019, June 26). Wrist Fracture: Rehab Exercises. MyHealth.Alberta.Ca. https://myhealth.alberta.ca/Health/aftercareinformation/pages/conditions.aspx?hwid=bo1655</h3>
+<h3>Image and Data Source: Healthwise Staff. (2019, June 26). Wrist Fracture: Rehab Exercises. MyHealth.Alberta.Ca. https://myhealth.alberta.ca/Health/aftercareinformation/pages/conditions.aspx?hwid=bo1655</h3>
 
 </body>
 </html>

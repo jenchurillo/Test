@@ -334,8 +334,8 @@ public class MiniProject3 extends HttpServlet {
 
                             display.add(carePlanCoding.get(j).getDisplay());
                             for (String s : display) {
-                                //System.out.println(s);
-                                fullCarePlan += "\n" + s;
+
+                                fullCarePlan += "-" + s;
                             }
                             //System.out.println(carePlanCoding.get(j));
                             //System.out.println(carePlanCoding.get(j).getDisplay());
@@ -350,7 +350,7 @@ public class MiniProject3 extends HttpServlet {
                     //System.out.println(carePlanList.get(k).getActivity().toArray());
                 }
 
-               //System.out.print(fullCarePlan);
+               //System.out.print(fullCarePlan[0]);
 
                 return fullCarePlan;
     }

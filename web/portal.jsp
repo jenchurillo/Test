@@ -79,7 +79,16 @@
             <p>Condition: ${patientCondition}</p>
 
             <h2>Plan of Care</h2>
-            <p>${patientCarePlan}</p>
+            <p>${patientCarePlan[0]}</p>
+            <p>${patientCarePlan[1]}</p>
+            <p>${patientCarePlan[2]}</p>
+            <p>${patientCarePlan[3]}</p>
+            <p>${patientCarePlan[4]}</p>
+            <p>${patientCarePlan[5]}</p>
+            <p>${patientCarePlan[6]}</p>
+            <p>${patientCarePlan[7]}</p>
+            <p>${patientCarePlan[8]}</p>
+            <p>${patientCarePlan[9]}</p>
         </div>
 
 

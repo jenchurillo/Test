@@ -29,10 +29,8 @@
             padding-top: 10px;
             text-decoration: underline;
         }
-        h3{
-            padding-top: 150px;
-            font-size: 10px;
-            margin-left: 250px;
+        h3{font-size: 10px;
+            text-align: center;
         }
         div{
             padding-top: 25px;
@@ -73,7 +71,7 @@
 
 <img data-hw-height="350" data-hw-width="600" src="https://content.ca.healthwise.net/resources/12.4/en-ca/media/medical/hw/h9991739_001_pi.jpg" data-resource-path="media/medical/hw/h9991739_001_pi.jpg">
 
-<h3>Image and data pulled from: Healthwise Staff. (2019, June 26). Wrist Fracture: Rehab Exercises. MyHealth.Alberta.Ca. https://myhealth.alberta.ca/Health/aftercareinformation/pages/conditions.aspx?hwid=bo1655</h3>
+<h3>Image and Data Source: Healthwise Staff. (2019, June 26). Wrist Fracture: Rehab Exercises. MyHealth.Alberta.Ca. https://myhealth.alberta.ca/Health/aftercareinformation/pages/conditions.aspx?hwid=bo1655</h3>
 
 </body>
 </html>
