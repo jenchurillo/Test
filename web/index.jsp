@@ -66,7 +66,7 @@
 
 <div>
     <p>Log into Care Plan Portal</p>
-        <form action="/https://mighty-reef-80311.herokuapp.com/carePlan" method="post">
+        <form action="/mighty-reef-80311.herokuapp.com/carePlan" method="post">
           /ihiFhirAssignment_war_exploded/logout
             username: <input type="text" name="username" width="30" placeholder="Username"/>
             password: <input type="password" name="password" width="30" placeholder="Password"/>
